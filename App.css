@@ -1,0 +1,90 @@
+/* App.css */
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.App-header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}
+
+.notes-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.note {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: left;
+}
+
+.note h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.note p {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.note-color {
+  height: 20px;
+  margin-top: 10px;
+}
+
+.note-form {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  text-align: left;
+}
+
+.note-form h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.note-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.note-form input[type="text"],
+.note-form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.note-form input[type="color"] {
+  padding: 0;
+  width: 30px;
+  height: 30px;
+}
+
+.note-form button {
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.note-form button:hover {
+  background-color: #555;
+}
